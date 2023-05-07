@@ -15,15 +15,15 @@
 }
 
 .index-navbar-custom {
-    background-color: #2CD4A7;
+    background-color: #e91e63;
 }
 
 .portfolio-navbar-custom {
-    background-color: #2FDEDB;
+    background-color: #e91e63;
 }
 
 .about-navbar-custom {
-    background-color: #33C6B8;
+    background-color: #e91e63;
 }
 
 .navbar-toggler {
@@ -113,10 +113,11 @@
 }
 
 .image {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .index-bottom {
@@ -356,7 +357,7 @@
     padding: 20px 30px;
     background-color: white;
     position: relative;
-    border: 2px solid #33C6B8;
+    border: 2px solid #23b2cb;
     border-radius: 6px;
 }
 
@@ -511,4 +512,25 @@ footer {
 
 .source {
     font-style: italic;
+}
+
+
+/* Hide vertical scrollbar */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide horizontal scrollbar */
+
+ ::-webkit-scrollbar-horizontal {
+    display: none;
+}
+
+
+/* Hide scrollbar track */
+
+ ::-webkit-scrollbar-track {
+    display: none;
 }
