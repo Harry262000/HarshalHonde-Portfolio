@@ -9,17 +9,50 @@
     color: #FFF;
 }
 
+.upper-section-index {
+    background-image: url('/HarshalHonde-Portfolio/docs/static/img/pexels-pixabay-268533.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.upper-section-portfolio {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+
+.upper-section-about {
+    background-image: url('/Vidhi-Portfolio/docs/static/img/mountains.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 #navbar-color:hover {
     text-decoration: none;
-    color: #000;
+    color: #FFFFFF;
 }
 
-.index-navbar-custom {
-    background-color: #e91e63;
+.navbar {
+    background: transparent;
 }
 
-.portfolio-navbar-custom {
-    background-color: #e91e63;
+.navbar-custom {
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+    /* Set the color of the navbar brand text */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    /* Set the color of the navbar links */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+    /* Set the color of the navbar links on hover */
 }
 
 .about-navbar-custom {
@@ -38,6 +71,8 @@
 }
 
 .title-color {
+    background-size: cover;
+    background-position: center;
     padding: 210px 0 80px;
     position: relative;
     z-index: 1;
@@ -46,16 +81,8 @@
     position: relative;
 }
 
-#index-title {
-    background-color: #2CD4A7;
-}
-
-#portfolio-title {
-    background-color: #2FDEDB;
-}
-
 #about-title {
-    background-color: #33C6B8;
+    background-color: #41699D;
 }
 
 .container {
@@ -65,7 +92,7 @@
 
 /*This is for debugging purposes to see the size of divs
 *{
-    outline: 1px solid red;
+outline: 1px solid red;
 }*/
 
 .title-text {
@@ -89,7 +116,7 @@
 }
 
 .index-header {
-    color: #2CD4A7;
+    color: #41699D;
     font-weight: bold;
     margin-bottom: 20px;
     padding: 10px;
@@ -246,7 +273,7 @@
 
 
 /* What follows now is the styling for the timeline on the About page
-    The code was taken from https://www.w3schools.com/howto/howto_css_timeline.asp */
+The code was taken from https://www.w3schools.com/howto/howto_css_timeline.asp */
 
 
 /* The actual timeline (the vertical ruler) */
@@ -517,7 +544,7 @@ footer {
 
 /* Hide vertical scrollbar */
 
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
     display: none;
 }
 
@@ -533,4 +560,40 @@ footer {
 
  ::-webkit-scrollbar-track {
     display: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 110px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-7px);
+}
+
+.button:hover {
+    background-color: transparent;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
 }
