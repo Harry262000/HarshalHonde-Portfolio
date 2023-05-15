@@ -10,19 +10,19 @@
 }
 
 .upper-section-index {
-    background-image: url('/HarshalHonde-Portfolio/docs/static/img/pexels-pixabay-268533.jpg');
+    background-image: url('./static/img/pexels-pixabay-268533.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .upper-section-portfolio {
-    background-image: url('/HarshalHonde-Portfolio/docs/static/img/Road-img.jpg');
+    background-image: url('./static/img/Road-img.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .upper-section-about {
-    background-image: url('/HarshalHonde-Portfolio/docs/static/img/tree.jpg');
+    background-image: url('./static/img/tree.jpg');
     background-size: cover;
     background-position: center;
 }
