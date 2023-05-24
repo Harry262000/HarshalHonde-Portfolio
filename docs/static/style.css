@@ -172,11 +172,12 @@
 }
 
 .col-md-5 {
-    padding: 20px 30px 20px 30px;
+    padding: 10px 10px 10px 10px;
 }
 
 .project-des {
     font-size: 14px;
+    margin: auto;
 }
 
 .skills {
@@ -249,7 +250,7 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .navbar-collapse {
         font-size: 18px;
     }
@@ -266,7 +267,7 @@
         font-size: 14px;
     }
     .portfolio-row {
-        margin: 30px 60px 30px 60px;
+        margin: 10px 10px 10px 10px;
     }
 }
 
@@ -339,7 +340,7 @@
 /* Place the container to the right */
 
 .right {
-    left: 50%;
+    left: 0;
 }
 
 
@@ -388,7 +389,7 @@
     padding: 20px 30px;
     background-color: white;
     position: relative;
-    border: 2px solid #23b2cb;
+    border: 2px solid #30cd7c;
     border-radius: 6px;
 }
 
@@ -416,9 +417,9 @@
     /* Make sure that all arrows are pointing leftwards */
     .container-timeline::before {
         left: 60px;
-        border: medium solid #33C6B8;
+        border: medium solid #30cd7c;
         border-width: 10px 10px 10px 0;
-        border-color: transparent #33C6B8 transparent transparent;
+        border-color: transparent #30cd7c transparent transparent;
     }
     /* Make sure all circles are at the same spot */
     .left::after,
@@ -450,7 +451,7 @@ hr {
 }
 
 h2.about-header {
-    color: #33C6B8;
+    color: #30cd7c;
 }
 
 .about-row {
@@ -490,7 +491,7 @@ h2.about-header {
 .skill-spec {
     position: absolute;
     height: 100%;
-    background-image: linear-gradient(to bottom right, rgba(51, 198, 184, 1), rgba(51, 198, 184, 0.5));
+    background-image: linear-gradient(to bottom right, rgb(48, 186, 89), rgba(51, 198, 184, 0.5));
     /*background-color: #33C6B8;*/
     border-radius: 3px;
     z-index: 10;
@@ -702,7 +703,7 @@ footer {
 }
 
 .button-1:hover {
-    background-color: #2EE59D;
+    background-color: #1eb075;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transition: all 0.3s ease 0s;
@@ -839,6 +840,7 @@ section {
     overflow: hidden;
     position: relative;
     width: auto;
+    margin-top: 20px;
 }
 
 .slider::before,
