@@ -13,18 +13,21 @@
     background-image: url('./img/pexels-pixabay-268533.jpg');
     background-size: cover;
     background-position: center;
+    width: auto;
 }
 
 .upper-section-portfolio {
     background-image: url('./img/Road-img.jpg');
     background-size: cover;
     background-position: center;
+    width: auto;
 }
 
 .upper-section-about {
     background-image: url('./img/tree.jpg');
     background-size: cover;
     background-position: center;
+    width: auto;
 }
 
 #navbar-color:hover {
