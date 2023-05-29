@@ -81,7 +81,6 @@
     }
     
     .container {
-        max-width: 1000px;
         /* Adjust the maximum width as needed */
         margin-left: auto;
         margin-right: auto;
@@ -710,10 +709,6 @@ The code was taken from https://www.w3schools.com/howto/howto_css_timeline.asp *
         margin-top: 0;
         margin-bottom: 1rem;
         margin-left: -90px;
-    }
-    
-    .container {
-        max-width: 1000px;
     }
     
     section {
