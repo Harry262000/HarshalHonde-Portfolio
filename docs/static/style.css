@@ -571,8 +571,6 @@ The code was taken from https://www.w3schools.com/howto/howto_css_timeline.asp *
     }
     
     .button {
-        width: 110px;
-        height: 45px;
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
         text-transform: uppercase;
@@ -757,8 +755,6 @@ The code was taken from https://www.w3schools.com/howto/howto_css_timeline.asp *
         box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
         transition: all 0.3s ease-in-out;
         text-align: center;
-        width: 210px;
-        height: 140px;
     }
     
     #services .box-1:hover {
